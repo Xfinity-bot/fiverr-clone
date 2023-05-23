@@ -1,5 +1,7 @@
 import React from 'react'
 import './Featured.scss'
+import Slide from '../slide/Slide'
+
 const Featured = () => {
   return (
     <div className="featured">
@@ -29,6 +31,7 @@ const Featured = () => {
                 <img src="" alt=" /"/>
             </div>
         </div>
+        <Slide/>
     </div>
   )
 }
