@@ -42,7 +42,7 @@ const Navbar = () => {
                     {!currentUser && <Button>Join</Button>}
                     {
                       currentUser && <div className="user" onClick={()=>setOpen((prev)=>!prev)}>
-                        <img src="" alt=" "/>
+                        <img src="https://avatars.githubusercontent.com/u/65854432?s=400&u=b82cfa06fd4a249e70980b6299622fc426f5f03a&v=4" alt=" "/>
                         <span>{currentUser?.username}</span>
                         {open && (<div className="options">
                           {
