@@ -8,11 +8,11 @@ const Featured = () => {
         <div className="container">
             <div className="left">
                 <h1>
-                    Find the perfect freelance services for your business
+                    Find the perfect <span>freelance</span> services for your business
                 </h1>
                 <div className="search">
-                    <div className="searchinput">
-                        <img src="" alt="" />
+                    <div className="search-input">
+                        <img src="src\assets\search.png" alt="search" />
                         <input type="text" placeholder="Try 'building mobile app'"/>
 
                     </div>
@@ -28,7 +28,7 @@ const Featured = () => {
                 </div>
             </div>
             <div className="right">
-                <img src="" alt=" /"/>
+                <img src="https://ik.imagekit.io/zatkf9sf1/fiverrguy.png?updatedAt=1684985102583" alt=" /"/>
             </div>
         </div>
         <Slide/>
